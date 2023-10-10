@@ -5,6 +5,8 @@ Zum Starten, bitte `Verwaltung.java` ausführen und auf die Console achten.
 
 `MitarbeiterTest.java` enthält zwei JUnit-Tests.
 
+## Klassendiagramm
+
 ![Klassendiagramm](FirmaV1_ClassDiagram.png)
 
 Die Originaldateien des Klassendiagramms findet man hier: https://github.com/mbalabanov/ClassDiagramFirmaV1
