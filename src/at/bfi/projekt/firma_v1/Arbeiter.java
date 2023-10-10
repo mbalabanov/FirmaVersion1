@@ -17,6 +17,30 @@ class Arbeiter extends Mitarbeiter {
 		this.schicht_Zulage = schicht_Zulage;
 	}
 
+	public double getStundenlohn() {
+		return stundenlohn;
+	}
+
+	public void setStundenlohn(double stundenlohn) {
+		this.stundenlohn = stundenlohn;
+	}
+
+	public int getAnz_stunden() {
+		return anz_stunden;
+	}
+
+	public void setAnz_stunden(int anz_stunden) {
+		this.anz_stunden = anz_stunden;
+	}
+
+	public double getSchicht_Zulage() {
+		return schicht_Zulage;
+	}
+
+	public void setSchicht_Zulage(double schicht_Zulage) {
+		this.schicht_Zulage = schicht_Zulage;
+	}
+
 	@Override
 	public String ausgabe() {
 		return "\nArbeiter\n========\nId: " + getId() + "\nName: " + getName() + "\nStundenlohn: "
