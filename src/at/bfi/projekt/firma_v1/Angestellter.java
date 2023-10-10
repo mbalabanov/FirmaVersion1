@@ -5,30 +5,53 @@ class Angestellter extends Mitarbeiter {
 	private double grundgehalt;
 	private double zulage;
 
+	/**
+	 * @param id
+	 * @param grundgehalt
+	 * @param zulage
+	 */
 	public Angestellter(int id, double grundgehalt, double zulage) {
 		super(id);
 		this.grundgehalt = grundgehalt;
 		this.zulage = zulage;
 	}
 
+	/**
+	 * @param id
+	 * @param name
+	 * @param grundgehalt
+	 * @param zulage
+	 */
 	public Angestellter(int id, String name, double grundgehalt, double zulage) {
 		super(id, name);
 		this.grundgehalt = grundgehalt;
 		this.zulage = zulage;
 	}
 
+	/**
+	 * @return
+	 */
 	public double getGrundgehalt() {
 		return grundgehalt;
 	}
 
+	/**
+	 * @param grundgehalt
+	 */
 	public void setGrundgehalt(double grundgehalt) {
 		this.grundgehalt = grundgehalt;
 	}
 
+	/**
+	 * @return
+	 */
 	public double getZulage() {
 		return zulage;
 	}
 
+	/**
+	 * @param zulage
+	 */
 	public void setZulage(double zulage) {
 		this.zulage = zulage;
 	}
