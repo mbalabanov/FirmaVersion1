@@ -1,4 +1,6 @@
 # Firma Version 1
- Lösung zum ersten Teil des Projekts "Firma".
+Lösung zum ersten Teil des Projekts "Firma".
 
- Das Klassendiagramm findet sich hier: https://github.com/mbalabanov/ClassDiagramFirmaV1
+!(Klassendiagramm)[FirmaV1_ClassDiagram.png]
+
+Die Originaldateien des Klassendiagramms findet man hier: https://github.com/mbalabanov/ClassDiagramFirmaV1
