@@ -5,6 +5,16 @@ class Angestellter extends Mitarbeiter {
 	private double grundgehalt;
 	private double zulage;
 
+	public Angestellter() {
+	}
+
+	/**
+	 * @param id
+	 */
+	public Angestellter(int id) {
+		super(id);
+	}
+
 	/**
 	 * @param id
 	 * @param grundgehalt

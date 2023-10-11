@@ -5,6 +5,9 @@ class Mitarbeiter {
 	private int id;
 	private String name;
 
+	public Mitarbeiter() {
+	}
+
 	/**
 	 * @param id
 	 */

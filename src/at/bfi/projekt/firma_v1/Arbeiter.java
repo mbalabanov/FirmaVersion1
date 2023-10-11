@@ -6,6 +6,9 @@ class Arbeiter extends Mitarbeiter {
 	private int anz_stunden;
 	private double schicht_Zulage;
 
+	public Arbeiter() {
+	}
+	
 	/**
 	 * @param id
 	 */
