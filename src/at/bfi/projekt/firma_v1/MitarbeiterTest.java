@@ -29,6 +29,28 @@ class MitarbeiterTest {
 	}
 
 	@Test
+	void testLeereMitarbeiterSucheNachID() {
+
+		// Leeres Array fuer die Mitarbeiterliste
+		Mitarbeiter[] mitarbeiter_liste = new Mitarbeiter[3];
+
+		// Erstellung der Arbeiterobjekte
+		Arbeiter arbeiter_0 = new Arbeiter(1, "Mina", 28.1, 101, 74.4);
+		Arbeiter arbeiter_1 = new Arbeiter(2, "Friedrich", 30.7, 87, 121.3);
+		Arbeiter arbeiter_2 = new Arbeiter(3, "Rikert", 16.2, 73, 34.9);
+
+		// Zuweisung der Objekte zum Array mit der Liste der Mitarbeiter
+		mitarbeiter_liste[0] = arbeiter_0;
+		mitarbeiter_liste[1] = arbeiter_1;
+		mitarbeiter_liste[2] = arbeiter_2;
+
+		// Suche nach nicht-vorhandenem Mitarbeiter anhand nicht-vorhandener ID
+		Mitarbeiter gefundenerMitarbeiter = Mitarbeiter.suche(mitarbeiter_liste, 4);
+
+		assertEquals(null, gefundenerMitarbeiter);
+	}
+
+	@Test
 	void testAnzahlMitarbeiter() {
 
 		// Leeres Array fuer die Mitarbeiterliste

@@ -17,17 +17,6 @@ class Angestellter extends Mitarbeiter {
 
 	/**
 	 * @param id
-	 * @param grundgehalt
-	 * @param zulage
-	 */
-	public Angestellter(int id, double grundgehalt, double zulage) {
-		super(id);
-		this.grundgehalt = grundgehalt;
-		this.zulage = zulage;
-	}
-
-	/**
-	 * @param id
 	 * @param name
 	 * @param grundgehalt
 	 * @param zulage
