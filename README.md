@@ -3,7 +3,7 @@ Dieses Repo enthält die Java-Lösung zum ersten Teil des Projekts "Firma".
 
 Zum Starten, bitte `Verwaltung.java` ausführen und auf die Console achten.
 
-`MitarbeiterTest.java` enthält zwei JUnit-Tests.
+`MitarbeiterTest.java` enthält drei JUnit-Tests.
 
 ## Klassendiagramm
 
